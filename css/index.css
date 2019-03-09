@@ -1,0 +1,308 @@
+/*京东首页main部分*/
+.jd{
+	height: 480px;
+	position: relative;
+}
+.jd-inner{
+	height: 480px;
+	position: relative;
+	z-index: 1;
+}
+.ad{
+	height: 480px;
+	background: url(../images/ad.png) no-repeat top center;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: 0;
+}
+.ad a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.jd-col1{
+	width: 190px;
+	height: 480px;
+	background-color: #fefefe;
+	float: left;
+}
+.jd-col1 ul{
+	padding-top: 15px;
+}
+.jd-col1 li{
+	padding-left: 10px;
+	height: 28px;
+	line-height: 28px;
+}
+.jd-col1 li:hover{
+	background-color: #999395;
+}
+.jd-col1 li a,
+.jd-col1 li span{
+	font-size: 14px;
+	color: #555A5F;
+}
+.jd-col1 li a:hover{
+	color: #f10215;
+}
+.jd-col2{
+	width: 790px;
+	height: 480px;
+	float: left;
+	margin: 0 10px;
+}
+.left{
+	padding-top: 10px;
+	width: 590px;
+	height: 480px;
+	float: left;
+	position: relative;
+}
+.a-l,
+.a-r{
+	font-family: "icomoon";
+	width: 25px;
+	height: 40px;
+	background: rgba(0,0,0,.2);
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+}
+.a-l:hover,
+.a-r:hover{
+	background: rgba(0,0,0,.4);
+}
+.a-l{
+	position: absolute;
+	left: 0;
+	top: 220px;
+
+}
+.a-r{
+	position: absolute;
+	right: 0;
+	top: 220px;
+}
+.left .gunlun{
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	width: 180px;
+	height: 20px;
+	margin-left: -90px;
+	
+}
+.gunlun li a{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	background-color: #ccc;
+	border-radius: 50%;
+	float: left;
+	margin-left: 5px;
+	cursor: pointer;
+}
+.gunlun li a:hover{
+	background-color: #fff;
+
+}
+.right{
+	width: 180px;
+	height: 470px;
+	float: right;
+	padding: 10px 10px 0;
+}
+.right .img2{
+	margin: 7px 0;
+}
+.jd-col3{
+	width: 190px;
+	height: 480px;
+	padding-top: 10px;
+	float: right;
+}
+.jd-col3 a{
+	font-size: 12px;
+	color: #747474;
+}
+.user{
+	height: 62px;
+	padding-top: 78px;
+	position: relative;
+	background-color: #fff;
+}
+.top-img{
+	position: absolute;
+	left: 50%;
+	top: -10px;
+	margin-left: -27px;
+	width: 55px;
+	height: 55px;
+	text-align: center;
+	border-radius: 50%;
+	border: 5px solid #e3e1df;
+	overflow: hidden;
+	box-shadow: 3px 8px 10px rgba(45,45,45,.15);
+}
+.top-img img{
+	width: 100%;
+	height: 100%;
+}
+.user-show{
+	height: 40px;
+	text-align: center;
+	line-height: 20px;
+	margin: -10px 0 10px;
+}
+.user-show p{
+	font-size: 12px;
+	color: #888;
+}
+.user-show p a{
+	color: #888;
+}
+.user-show p a:hover{
+	color: #f10215;
+}
+.user-inner{
+	height: 25px;
+	padding: 0 20px;
+}
+.inner-left{
+	height: 25px;
+	width: 70px;
+	display: inline-block;
+	color: #e43f3b;
+	font-size: 12px;
+	text-align: center;
+	background-color: #fff;
+	line-height: 25px;
+	border-radius: 13px;
+	box-shadow: 6px 8px 20px rgba(45,45,45,.15);
+}
+.inner-right{
+	height: 25px;
+	width: 70px;
+	display: inline-block;
+	color: #e5d790;
+	background-color: #363634;
+	font-size: 12px;
+	text-align: center;
+	line-height: 25px;
+	border-radius: 10px;
+	box-shadow: 6px 8px 20px rgba(45,45,45,.15);
+}
+.inner-left:hover,
+.inner-right:hover{
+	background-color: #f10215;
+	color: #fff;
+}
+.news{
+	height: 130px;
+	border-bottom: 3px solid #ccc;
+	border-top: 3px solid #fff;
+	background-color: #fff;
+}
+.tab-hd{
+	border-bottom: 1px solid #ccc;
+	padding: 3px 5px;
+	position: relative;
+}
+.tab-hd a{
+	font-size: 12px;
+	color: #747474; 
+	margin: 0 4px;
+}
+.tab-hd a:hover,
+.tab-bd a:hover{
+	color: #f10215;
+}
+.cuxiao{
+	border-right: 1px solid #ccc;
+	padding-right: 10px;
+}
+.more{
+	position: absolute;
+	top: 6px;
+	right: 0;
+}
+.line{
+	width: 42px;
+	height: 2px;
+	background-color: #f10215;
+	position: absolute;
+	bottom: -1px;
+	left: 0;
+}
+.tab-bd{
+	margin-top: 5px;
+}
+.tab-bd li{
+	height: 23px;
+	line-height: 23px;
+	padding-left: 10px;
+}
+.jd-service{
+	height: 193px;
+	overflow: hidden;
+	background-color: #fff;
+}
+.jd-service ul{
+	width: 195px;
+}
+.jd-service li{
+	width: 47px;
+	height: 64px;
+	float: left;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.jd-service li:hover{
+	background-color: #ccc;
+}
+.jd-service i{
+	display: block;
+	width: 24px;
+	height: 24px;
+	margin: 15px auto 8px;
+	background: url(../images/sprite_fs@1x.png) no-repeat;
+}
+.jd-service p{
+	text-align: center;
+}
+.jd-service .biao1{
+	background-position: -1px -87px;
+}
+.jd-service .biao2{
+	background-position: -1px -44px;
+}
+.jd-service .biao3{
+	background-position: -44px -88px;
+}
+.jd-service .biao4{
+	background-position: -88px -0px;
+}
+.jd-service .biao5{
+	background-position: -88px -43px;
+}
+.jd-service .biao7{
+	background-position: -44px -44px;
+}
+.jd-service .biao8{
+	background-position: -88px -88px;
+}
+.jd-service .biao9{
+	background-position: -132px 0px;
+}
+.jd-service .biao10{
+	background-position: -132px 0px;
+}
+.jd-service .biao11{
+	background-position: -132px -87px;
+}
+.jd-service .biao12{
+	background-position: -44px 0px;
+}
+
