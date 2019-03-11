@@ -1,0 +1,393 @@
+body{
+	background-color: #f3f4f5;
+}
+/*header start*/
+header{
+	width: 1300px;
+	height: 100px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+.logo{
+	width: 196px;
+	height: 42px;
+	background-color: red;
+	float: left;
+}
+.logo a{
+	display: inline-block;
+	width: 196px;
+	height: 42px;
+	background: url(../images/xlogo.png) no-repeat;
+	text-indent: -999px;/*文字往左偏移*/
+	overflow: hidden;/*切除多出来的部分*/
+}
+nav{
+	float: left;
+	margin-left: 20px;
+}
+nav li{
+	height: 40px;
+	line-height: 40px;
+	float: left;
+	margin-left: 20px;
+}
+nav li a{
+	display: block;
+	height: 40px;
+	font-size: 18px;
+	padding: 0 10px;
+}
+nav li a:hover{
+	border-bottom: 2px solid #00a4ff;
+}
+.search{
+	width: 410px;
+	height: 40px;
+	background-color: green;
+	float: left;
+	margin-left: 150px;
+}
+.search input{
+	width: 360px;
+	height: 40px;
+	border: 1px solid #00a4ff;
+	outline: none;/*取消蓝色轮廓线*/
+	padding: 0 10px;
+	float: left;
+}
+.search button{
+	width: 50px;
+	height: 40px;
+	border: 0;
+	float: left;
+	background: url(../images/search.png) no-repeat;
+	outline: none;
+}
+.personal{
+	height: 40px;
+	line-height: 40px;
+	float: right;
+}
+.personal dt,
+.personal dd{
+	float: left;
+}
+.personal s{
+	position: relative;
+	margin: 0 30px;
+	text-decoration: none;
+}
+.personal s::after{
+	content: "";
+	border-radius: 50%;
+	width: 6px;
+	height: 6px;
+	background-color: red;
+	position: absolute;
+	right: -3px;
+	top: 0;
+}
+.personal span{
+	font-size: 14px;
+	color: #666666;
+}
+.personal span img{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+/*header end*/
+
+/*banner start*/
+.banner{
+	height: 420px;
+	background-color: #1c036c;
+}
+.inner{
+	height: 420px;
+	position: relative;
+}
+.subnav{
+	width: 190px;
+	height: 100%;
+	background: rgba(0, 0, 0, .3);
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding-top: 20px;
+}
+.subnav li{
+	width: 100%;
+	height: 43px;
+	padding-left: 20px;
+	position: relative;
+	line-height: 43px;
+}
+.subnav a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	font-size: 14px;
+}
+.subnav a:hover{
+	color: #00b4ff;
+	font-size: 14px;
+}
+.subnav li span{
+	position: absolute;
+	right: 20px;
+	top: 0;
+}
+.circle{
+	width: 176px;
+	height: 25px;
+	position: absolute;
+	bottom: 15px;
+	left: 50%;
+	/*margin-left: -88px;*/
+	transform: translate(-50%);
+}
+.circle i{
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	background: rgba(255, 255, 255, .3);
+	border-radius: 50%;
+	margin: 0 5px;
+	transition: all .3s;
+}
+.circle i:hover{
+	width: 22px;
+	height: 14px;
+	background-color: #fff;
+	border-radius: 7px;
+}
+.timebook{
+	width: 228px;
+	height: 300px;
+	background-color: #fff;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translate(0,-50%);
+}
+.timebook dt{
+	height: 48px;
+	width: 100%;
+	background-color: #9bceea;
+	text-align: center;
+	line-height: 48px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 700;
+}
+.timebook dd{
+	height: 60px;
+	margin: 0 18px;
+	color: #4e4e4e;
+	font-size: 14px;
+	line-height: 27px;
+}
+.timebook dd p{
+	color: #a5a5a5;
+	font-size: 12px;
+}
+.timebook a:hover,
+.timebook a:hover p,
+.timebook a p:hover{
+	color: #00a4ff;
+}
+
+.timebook .book1{
+	margin-top: 10px;
+}
+.book2{
+	border-top: 1px solid #efefef;
+	border-bottom: 1px solid #efefef;
+}
+.timebook .book4{
+	
+	font-size: 16px;
+	border: 1px solid #00a4ff;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	margin-top: 10px;
+}
+.timebook .book4 a{
+	color: #00a4ff;
+	display: block;
+	height: 40px;
+	width: 100%;
+}
+.timebook .book4 a:hover{
+	color: #fff;
+	background-color: #00a4ff;
+}
+/*banner end*/
+
+/*recommed start*/
+.recommed {
+	height: 60px;
+	background-color: #fff;
+	margin-top: 10px;
+	line-height: 60px;
+	position: relative;
+	box-shadow: 2px 2px 40px rgba(0, 0, 0, .3);
+}
+.recommed a{
+	color: #050505;
+	font-size: 16px;
+	margin: 0 20px;
+}
+.recommed a:hover{
+	color: #00a4ff;
+}
+.recommed strong{
+	color: #00a4ff;
+	font-size: 16px;
+	margin: 0 20px;
+}
+.recommed em a{
+	position: absolute;
+	right: 20px;
+	top: 0;
+	font-size: 14px;
+	color: #00a4ff;
+}
+/*recommed end*/
+
+/*products start*/
+.pro-hd{
+	height: 40px;
+	margin: 35px 0 10px;
+	position: relative;
+}
+.pro-hd h4{
+	color: #494949;
+	font-size: 20px;
+	line-height: 40px;
+	font-weight: normal;
+}
+.pro-hd a{
+	color: #a5a5a5;
+	font-size: 12px;
+	position: absolute;
+	right: 30px;
+	top: 10px;
+}
+.pro-hd a:hover{
+	color: #00a4ff;
+}
+.pro-bd li{
+	width: 230px;
+	height: 270px;
+	background-color: #fff;
+	float: left;
+	margin-right: 12px;
+	margin-bottom: 12px;
+	transition: all .3s;
+}
+.pro-bd li:hover{
+	box-shadow: 2px 2px 30px rgba(0, 0, 0, .3);
+	transform: translateY(-10px);
+}
+.pro-bd li:nth-child(5n){
+	margin-right: 0;
+}
+.pro-top img{
+	width: 230px;
+	height: 155px;
+	transition: all .3s;
+}
+.pro-top{
+	width: 230px;
+	height: 155px;
+	overflow: hidden;
+}
+.pro-top:hover img{
+	transform: scale(1.1);
+}
+.pro1{
+	padding: 20px;
+}
+.pro1 p{
+	color: #050505;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+.pro1 s{
+	color: #999999;
+	font-size: 12px;
+	text-decoration: none;
+}
+.pro1 span{
+	color: #ff7c2d;
+}
+/*products end*/
+
+/*footer start*/
+footer{
+	height: 415px;
+	background-color: #fff;
+	margin-top: 20px;
+	
+}
+.w{
+	position: relative;
+}
+.footer-l{
+	padding: 30px 20px;
+	float: left;
+}
+.footer-l p{
+	font-size: 12px;
+	color: #666666;
+	width: 440px;
+	margin: 20px 0;
+}
+.footer-l a{
+	display: block;
+	width: 120px;
+	height: 35px;
+	border: 1px solid #00a4ff;
+	font-size: 16px;
+	color: #00a4ff;
+	text-align: center;
+	line-height: 35px;
+	transition: all .3s;
+}
+.footer-l a:hover{
+	background-color: #00a4ff;
+	color: #fff;
+}
+.footer-r{
+	float: left;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.footer-r dl{
+	float: left;
+	margin-top: 35px;
+	margin-left: 150px;
+}
+.footer-r dl:nth-child(3){
+	margin-right: 30px;
+}
+.footer-r dl dt{
+	color: #333333;
+	font-size: 16px;
+}
+.footer-r dl dd{
+	color: #333333;
+	font-size: 12px;
+	line-height: 20px;
+}
+.footer-r a:hover{
+	color: #00a4ff;
+}
+/*footer end*/
