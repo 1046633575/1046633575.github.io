@@ -1,0 +1,229 @@
+body{
+	height: 1550px;
+}
+header{
+	height: 100px;
+	width: 100%;
+	padding-top: 30px;
+	background-color: #fff;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, .1);
+}
+header h1{
+	width: 195px;
+	height: 42px;
+	background: url(../images/logo.png);
+	text-indent: -9999px;
+	overflow: hidden;
+}
+.head-l {
+	height: 100px;
+	position: absolute;
+	right: 600px;
+	top: 0;
+}
+.head-l li{
+	height: 40px;
+	float: left;
+	line-height: 40px;
+	margin-left: 40px;
+	margin-top: 30px;
+}
+.head-l li a{
+	height: 40px;
+	display: inline-block;
+	color: #00a4ff;
+	font-size: 18px;
+}
+.head-l li a:hover{
+	border-bottom: 2px solid #00a4ff;
+
+}
+.fff{
+	height: 100px;
+	position: absolute;
+	right: 300px;
+	top: 0;
+}
+.fff li{
+	float: left;
+	margin-left: 30px;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 30px;
+}
+.ld{
+	width: 14px;
+	height: 16px;
+	background: url(../images/ld.png) no-repeat;
+	margin-top: 50px;
+	position: relative;
+	top: 15px;
+}
+.ld i{
+	position: absolute;
+	right: -8px;
+	top: -5px;
+	width: 7px;
+	height: 7px;
+	background-color: red;
+	border-radius: 50%;
+}
+.fff li a{
+	color: #666666;
+	font-size: 14px;
+}
+.fff li a:hover{
+	color: #00a4ff;
+}
+.tx{
+	line-height: 40px;
+}
+.tx em{
+	display: inline-block;
+	width: 33px;
+	height: 33px;
+	background: url(../images/pic.png) no-repeat;
+	border-radius: 50%;
+	float: left;
+}
+
+/*banner start*/
+.banner{
+	margin-top: 1px;
+	padding-top: 50px;
+}
+.box{
+	background-color: #fff;
+	height: 950px;
+	padding-top: 40px;
+	padding-left: 50px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, .1);
+}
+.box .sug{
+	position: relative;
+	top: -150px;
+	left: 300px;
+}
+.box h3{
+	font-weight: 400;
+}
+.box p{
+	margin-top: 20px;
+	font-size: 14px;
+	color: #666666;
+}
+.box a{
+	color: #00a4ff;
+	width: 120px;
+	height: 35px;
+	border: 1px solid #00a4ff;
+	display: block;
+	text-align: center;
+	line-height: 35px;
+	font-size: 16px;
+	margin-top: 30px;
+}
+.box a:hover{
+	background-color: #00a4ff;
+	color: #fff;
+}
+.box .download{
+	position: absolute;
+	right: 450px;
+	top: 190px;
+	width: 200px;
+	height: 200px;
+	background-color: #fafafa;
+	padding-left: 30px;
+	padding-top: 20px;
+}
+.box .download h4{
+	font-weight: 400;
+}
+.box .download a{
+	color: #fff;
+	width: 140px;
+	height: 35px;
+	background-color: #6ab344;
+	display: block;
+	text-align: center;
+	line-height: 35px;
+	border: 1px solid #6ab344;
+	font-size: 14px;
+	margin-top: 30px;
+	border-radius: 10px;
+}
+.box .download .appstore{
+	color: #fff;
+	width: 140px;
+	height: 35px;
+	background-color: #404040;
+	display: block;
+	text-align: center;
+	line-height: 35px;
+	border: 1px solid #404040;
+	font-size: 14px;
+	margin-top: 30px;
+	border-radius: 10px;
+}
+.box .box-l{
+	width: 1055px;
+	margin-top: -70px;
+	border-top: 1px solid #ccc;
+	padding-top: 30px;
+}
+
+/*footer start*/
+footer{
+	height: 420px;
+	background-color: #fff;
+	margin-top: 50px;
+	padding-top: 30px;
+	padding-left: 15px;
+}
+.foot-l{
+	float: left;
+}
+.foot-l p{
+	width: 440px;
+	height: 35px;
+	font-size: 12px;
+	color: #666666;
+	margin: 20px 0 15px;
+}
+.foot-l a{
+	color: #00a4ff;
+	width: 120px;
+	height: 35px;
+	border: 1px solid #00a4ff;
+	display: block;
+	text-align: center;
+	line-height: 35px;
+	font-size: 16px;
+}
+.foot-l a:hover{
+	background-color: #00a4ff;
+	color: #fff;
+}
+.foot-r{
+	float: left;
+}
+.foot-r dl{
+	float: left;
+	margin-left: 150px;
+}
+.foot-r dt{
+	color: #333333;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+.foot-r dd{
+	font-size: 12px;
+	line-height: 20px;
+}
+.foot-r dd a{
+	color: #333333;
+}
+.foot-r dd a:hover{
+	color: #00a4ff;
+}
